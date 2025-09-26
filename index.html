@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sports Pulse - Student Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Sports Pulse Registration</h2>
+    <form id="registrationForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="sport">Choose Sport</label>
+      <select id="sport" required>
+        <option value="">--Select Sport--</option>
+        <option>Cricket</option>
+        <option>Football</option>
+        <option>Basketball</option>
+        <option>Badminton</option>
+        <option>Volleyball</option>
+        <option>Athletics</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+    <div class="message" id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
